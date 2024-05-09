@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 10px;
+            padding: 10px;
+        }
+        div{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+
+        }
+        button{
+            height: 40px;
+            width: 60px;
+            border-radius: 50%;
+            text-align: center;
+            display: flex;
+            background-color: rgb(201, 184, 217);
+            
+        }
+        
+        body{
+            background-color: rgb(94, 237, 190);
+            
+        }
+        
+        
+
+    </style>
+    
+</head>
+<body>
+    <div style="display: flex ;">
+        <div>
+            <img src="./images/kalkias.jpeg" alt="Prabhas" style="height: 200px; width: 200px; border-radius: 50%;">
+            <button onclick="colorGreen()">Hero</button>
+        </div>
+        <div>
+            <img src="./images/anu.jpeg" alt="Anushka" style="height: 200px; width: 200px; border-radius: 50%;">
+            <button onclick="colorRed()">Heroin</button>
+        </div>
+        <div>
+            <img src="./images/rana.jpeg" alt="Rana" style="height: 200px; width: 200px; border-radius: 50%;">
+            <button onclick="colorYellow()">Villain</button>
+        </div>
+    </div>
+    
+    <script>
+        function colorGreen(){
+            document.body.style.backgroundColor = "gold";
+        }
+        function colorRed(){
+            document.body.style.backgroundColor = "black";
+        }
+        function colorYellow(){
+            document.body.style.backgroundColor = "brown";
+        }
+        
+
+    </script>
+   
+</body>
+</html>
